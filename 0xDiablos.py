@@ -1,6 +1,7 @@
 #!/usr/bin/env python3 
-
 from pwn import *
+
+#This is a script to exploit the HTB CTF Binary named "vuln" using the pwntools wrapper to make retrieving the flag easier.
 
 buffer = b'A'*180
 
